@@ -1,3 +1,24 @@
-body {
-    background-color: pink;
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,200&family=EB+Garamond&display=swap');
+
+/*  font-family: 'Bitter', serif;
+    font-family: 'EB Garamond', serif;  */
+
+header {
+    margin: 0;
+}
+
+.logo {
+    background: url(/assets/images/flamingo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 360px;
+    /*
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;*/
+}
+
+.bg-color-name-title {
+    background-color: #676767;
 }
