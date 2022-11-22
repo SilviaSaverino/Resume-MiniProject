@@ -24,6 +24,24 @@
     background-color: #0768d6;
 }
 
+/*--------------------------------------------------------------margins/paddings...  */
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: 'Bitter', serif;
+    color: silver;
+}
+
+
 /*--------------------------------------------------------------Heading   */
 header {
     margin: 0;
@@ -89,7 +107,7 @@ header {
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    
+
 }
 
 .menuitem a i {
@@ -113,4 +131,13 @@ header {
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
+}
+
+/*--------------------------------------------------------------Footer   */
+
+footer {
+    background-color: #676767;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
 }
