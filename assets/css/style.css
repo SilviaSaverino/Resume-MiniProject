@@ -24,6 +24,10 @@
     background-color: #0768d6;
 }
 
+.download i {
+    color: silver
+}
+
 /*--------------------------------------------------------------margins/paddings...  */
 h1,
 h2,
@@ -141,3 +145,6 @@ footer {
     min-height: 120px;
     margin: 0;
 }
+ .inline-block {
+    display: inline-block;
+ }
