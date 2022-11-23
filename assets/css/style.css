@@ -164,7 +164,7 @@ footer {
     padding-bottom: 15px;
  }
 
- .social-links li a i {
+ .social-links a {
     width: 32px;
     height: 32px;
     padding: 12px;
@@ -174,4 +174,7 @@ footer {
     line-height: 70px;
     color: #fafafa;
     background: #8f8f8f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }
