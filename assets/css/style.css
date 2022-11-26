@@ -40,6 +40,8 @@ h4 {
 .general-sub {
     font-family: 'Bitter', serif;
     color: silver;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 
@@ -177,4 +179,5 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
  }
