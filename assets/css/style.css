@@ -29,12 +29,17 @@
 }
 
 
-/*--------------------------------------------------------------margins/paddings...  */
+/*--------------------------------------------------------------margins/paddings/general...  */
 h1,
 h2,
 h3,
 h4 {
     margin: 0;
+    font-family: 'Bitter', serif;
+}
+
+p {
+    font-family: 'EB Garamond', serif;
 }
 
 .upper {
@@ -60,6 +65,7 @@ h4 {
 
 .section-heading {
     font-family: 'EB Garamond', serif;
+    text-transform: uppercase;
     margin-top: 25px;
     margin-bottom: 40px;
 }
@@ -156,9 +162,7 @@ header {
 }
 
 /*--------------------------------------------------------------Three reasons    */
-.section-heading {
-    text-transform: uppercase;
-}
+
 
 .three-reasons-icon {
     font-size: 25px;
@@ -168,8 +172,13 @@ header {
 .three-reasons-heading {
     text-transform: uppercase;
     margin-bottom: 15px;
+    font-family: 'Bitter', serif;
+    font-weight: bold;
 }
 
+.three-reasons-heading + p {
+    font-size: 17px;
+}
 
 /*--------------------------------------------------------------Footer   */
 
