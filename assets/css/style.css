@@ -219,6 +219,26 @@ header {
     font-family: 'Bitter', serif;
 }
 
+/*--------------------------------------------------------------skills   */
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: bold;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progess-section {
+    margin: 40px 20px;
+}
+
 /*--------------------------------------------------------------Footer   */
 
 footer {
