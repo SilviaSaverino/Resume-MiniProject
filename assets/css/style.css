@@ -316,6 +316,11 @@ button[type=submit]{
     background-color:  #9b59b6;
 }
 
+button[type=submit]:hover {
+    color: #9b59b6;
+    background-color: rgb(241, 241, 68);
+}
+
 /*-------------------------------------------------------------- Media Queries */
 
 @media(min-width: 992px) {
