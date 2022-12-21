@@ -37,6 +37,15 @@
     background-color: #9b59b6;
 }
 
+.ui-menu-color-github {
+    background-color: #1c4a6c;
+}
+
+.ui-menu-color-interests {
+    background-color: #e74c3c;
+}
+
+
 .ui-menu-color-download {
     background-color: #0768d6;
 }
@@ -60,6 +69,10 @@ h4 {
     color: silver;
     font-weight: bold;
     text-transform: uppercase;
+    padding-top: 15px;
+}
+.inline-block {
+    display: inline-block;
 }
 
 .row-table {
@@ -142,7 +155,7 @@ header {
 .menuitem a {
     width: 100%;
     height: 120px;
-    display: inline-block;
+   /* display: inline-block;*/
     text-decoration: none;
     color: #fff;
 
@@ -324,6 +337,12 @@ button[type=submit]:hover {
 /*-------------------------------------------------------------- Media Queries */
 
 @media(min-width: 992px) {
+    .section-column {
+        padding: 0 30px 30px;
+        float: none;
+        display: table-cell;
+    }
+
     .center-form {
         padding-top: 30px;
         min-height: 240px;
