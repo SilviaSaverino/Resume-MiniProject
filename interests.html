@@ -189,15 +189,23 @@
         </div>
 
     </footer>
-
     <script>
-        var APIKey = "AIzaSyCiHQQ3rg5fWrESPzno-XIXvnFOzUo4xX4";
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 3,
+                center: {
+                    let: 46.619261,
+                    lng: -33.134766
+                }
+            });
+        }
+        initMap();
     </script>
-<!--
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDHHyac2SiOYPNYxXMK7rqJjnB8nCaaxE&callback=initMap"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiHQQ3rg5fWrESPzno-XIXvnFOzUo4xX4&callback=initMap"></script>
+    
     <script src="assets/js/maps.js"></script>
-    -->
+   
 </body>
 
 </html>

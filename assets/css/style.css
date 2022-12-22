@@ -3,7 +3,7 @@
 
 /*  font-family: 'Bitter', serif;
     font-family: 'EB Garamond', serif;  */
-
+div#map {min-height: 360px;}
 /*--------------------------------------------------------------Colors   */
 .bg-color-name-title {
     background-color: #676767;
